@@ -1,5 +1,5 @@
 # School-English-Project
-Recently I had a english school project that I had to Do. It had to do with countries and facts. Basically, for 10 countries, I would for each one I would write a (weird) fact about it
+Recently I had a english school project that I had to do. It had to do with countries and facts. Basically, for 10 countries, I would for each one I would write a (weird) fact about it
 
 # Why is this even a webiste lol?
 Good question. The problem is that as of now I have a 2006 something printer. Of course it is the HP DeskJet F380 All-In-One. Nowdays, I have trouble priting it. So I asked if I can do it in another way like Kahoot!, PowerPoint and etc. The teacher agreed so I made the website. 
