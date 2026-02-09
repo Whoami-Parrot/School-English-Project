@@ -4,7 +4,7 @@ Recently I had a english school project that I had to do. It had to do with coun
 # Why is this even a webiste lol?
 Good question. The problem is that as of now I have a 2006 something printer. Of course it is the HP DeskJet F380 All-In-One. Nowdays, I have trouble doing pritining on it. So I asked if I can do it in another way like Kahoot!, PowerPoint and etc. The teacher agreed so I made the website. 
 
-# Is this some AI slop again?
+# Is this some AI slop* again?
 * The HTML was written all by me,
 
 * The CSS was written by Google-Antigravity (The UI was decribed by me) (I mean it was 12:00am when I made this...so I kinda needed help)
@@ -14,6 +14,8 @@ Good question. The problem is that as of now I have a 2006 something printer. Of
 As of now, I do not know much of web development, I only know a bit. However, I am learning and focusing on it so I can learn how to build apps for mobile/desktop and websites. This is just the beggining, In the future, I will be more serious and I will probably not even use AI at all (or a little but I will always let you know if I have used AI). If you would like to check my promnts, I have written a file for that in the repostiory.
 
 Side note: Don't let the emojis fool you, I added them for ashetics. Also, I DO NOT SUPPORT vibe coding by just blidnly copy pasting but rather understanding how the code the LLM gives you works. I am actually learning web development right now 
+
+* AI slop: Means that something was made with AI fully without a human putting any effort to making it. For instance, an image instead of being taken via a camera, it was made fully with AI. Luckily this project does not follow this and it seriously hates it 
 
 # How it works?
 Simple, answer the questions and check results
