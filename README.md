@@ -9,11 +9,11 @@ Good question. The problem is that as of now I have a 2006 something printer. Of
 
 * The CSS was written by Google-Antigravity (The UI was decribed by me) (I mean it was 12:00am when I made this...so I kinda needed help)
 
-*The Javascript logic was written 50-50. Basically, 50% by me (from python experience) and 50% by the AI (mostly for help)
+* The Javascript logic was written 50-50. Basically, 50% by me (from python/other experience) and 50% by the AI (mostly for help)
 
-As of now, I do not know much of web development, I only know a bit. However, I am learning and focusing on it so I can learn how to build apps for mobile/desktop and websites. This is just the beggining, In the future, I will be more serious and I will probably not even use AI at all (or a little but I will always let you know if I have used AI). If you would like to check my promnts, I have written a file for that in the repostiory.
+As of now, I do not know much of web development, I only know a bit. However, I am learning and focusing on it so that I can learn how to build apps for mobile/desktop and websites. This is just the beggining, In the future, I will be more serious and I will probably not even use AI at all (or a little but I will always let you know if I have used AI). If you would like to check my prompts, I have written a file for that in the repostiory called prompts.md.
 
-Side note: Don't let the emojis fool you, I added them for ashetics. Also, I DO NOT SUPPORT vibe coding by just blidnly copy pasting but rather understanding how the code the LLM gives you works. I am actually learning web development right now 
+Side note: Don't let the emojis fool you, I added them for ashetics. Also, I DO NOT SUPPORT vibe coding by just blidnly copy pasting but rather understanding how the code the LLM gives you works. 
 
 * AI slop: Means that something was made with AI fully without a human putting any effort to making it. For instance, an image instead of being taken via a camera, it was made fully with AI. Luckily this project does not follow this and it seriously hates it 
 
