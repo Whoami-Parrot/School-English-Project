@@ -29,3 +29,5 @@ Well unless the code has an issue or want to add yourself a fact on countries li
 # License: 
 Why would you need a license for this? Take the code and heck even claim it's yours I do not care (Just for this project though, not in future ones which will have a license and will be actually good ones)
 
+# Browser emoji issue note
+If you open the HTML in a browser and do not see the country flags as emojis but rather you see country codes (liek FR, GR, JP, UK, etc). This is probably an issue with your operating system not having the emojis. On firefox you will not have a problem as it use the Twemoji Mozilla fonts baked into the browser. On the other hand, chromium uses the ones from the OS. If you don't see the emojis like I said, it may be an OS thing. Try doing research on a solution
