@@ -1,14 +1,14 @@
 const facts = {
-    0: { answer: true, reason: "Frog legs (cuisses de grenouille) are a traditional, albeit not daily, delicacy in French cuisine, particularly in eastern France." },
-    1: { answer: true, reason: "It is generally true that tipping is not customary in China and can be considered rude, embarrassing, or akin to giving charity." },
-    2: { answer: false, reason: "New laws effective October 1, 2024, make it mandatory for all bird keepers to register with the APHA, but a restrictive 'wild animal' license is not required." },
-    3: { answer: false, reason: "Guinea pigs are social animals and need company, which is why it is actually illegal in Switzerland to own just one." },
-    4: { answer: false, reason: "While handshakes are common in business, a traditional greeting among close friends and family in the Netherlands is three kisses on alternating cheeks." },
-    5: { answer: true, reason: "The unicorn is the official national animal of Scotland, symbolizing strength and untamed power in Celtic mythology." },
-    6: { answer: false, reason: "In Sweden, it is generally considered impolite to enter a home while wearing outdoor shoes. Standard etiquette is to remove them." },
-    7: { answer: false, reason: "While Danes love ice cream and consume it year-round, it is not a standard or frequent breakfast food." },
-    8: { answer: true, reason: "In Portugal, the name 'Lucifer' is legally prohibited for use on newborns." },
-    9: { answer: true, reason: "Most Austrians will stand and wait for the 'little green man' (Ampelmännchen) to appear, even if the street is empty." }
+    0: { answer: true, reason: "Frog legs (cuisses de grenouille) are a traditional, albeit not daily, delicacy in French cuisine, particularly in eastern France." }, // France
+    1: { answer: true, reason: "It is generally true that tipping is not customary in China and can be considered rude, embarrassing, or akin to giving charity." }, // China
+    2: { answer: false, reason: "New laws effective October 1, 2024, make it mandatory for all bird keepers to register with the APHA, but a restrictive 'wild animal' license is not required." }, // United Kingdom
+    3: { answer: false, reason: "Guinea pigs are social animals and need company, which is why it is actually illegal in Switzerland to own just one." }, // Switzerland
+    4: { answer: false, reason: "While handshakes are common in business, a traditional greeting among close friends and family in the Netherlands is three kisses on alternating cheeks." }, // Nertherlands (or Holland as my book says)
+    5: { answer: true, reason: "The unicorn is the official national animal of Scotland, symbolizing strength and untamed power in Celtic mythology." }, // Scotland
+    6: { answer: false, reason: "In Sweden, it is generally considered impolite to enter a home while wearing outdoor shoes. Standard etiquette is to remove them." }, // Sweeden 
+    7: { answer: false, reason: "While Danish love ice cream and consume it year-round, it is not a standard or frequent breakfast food." }, // Denmark
+    8: { answer: true, reason: "In Portugal, the name 'Lucifer' is legally prohibited for use on newborns." }, // Portugal
+    9: { answer: true, reason: "Most Austrians will stand and wait for the 'little green man' (Ampelmännchen) to appear, even if the street is empty." } // Austria
 };
 
 let userAnswers = {};
@@ -25,7 +25,7 @@ function showResults() {
     const answeredCount = Object.keys(userAnswers).length;
 
     if (answeredCount < totalFacts) {
-        document.getElementById('score-display').innerText = `Please answer all questions first! (${answeredCount}/${totalFacts})`;
+        document.getElementById('score-display').innerText = `Answer the questions first before you submit... (${answeredCount}/${totalFacts})`;
         return;
     }
 
@@ -50,27 +50,28 @@ function showResults() {
             </div>
         `;
     }
-
+    
+    // Showing the score
     const display = document.getElementById('score-display');
     display.innerText = `You got ${score} out of ${totalFacts} correct!`;
 
-    // Append the detailed results
+    // Adding the detailed results
     const resultsContainer = document.querySelector('.results');
     let breakdown = document.getElementById('results-breakdown');
 
     if (!breakdown) {
         breakdown = document.createElement('div');
         breakdown.id = 'results-breakdown';
-        resultsContainer.appendChild(breakdown);
+        resultsContainer.appendChild(breakdown); 
     }
 
     breakdown.innerHTML = resultsHTML;
 
     if (score === totalFacts) {
-        display.style.color = '#4ade80';
+        display.style.color = '#4ade80'; // Green
     } else if (score >= totalFacts / 2) {
-        display.style.color = '#facc15';
+        display.style.color = '#facc15'; // Yellow 
     } else {
-        display.style.color = '#f87171';
+        display.style.color = '#f87171'; // Red
     }
 }
