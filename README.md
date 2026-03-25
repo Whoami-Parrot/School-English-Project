@@ -5,6 +5,10 @@ Recently I had a english school project that I had to do. It had to do with coun
 Good question. The problem is that as of now I have a 2006 something printer. Of course it is the HP DeskJet F380 All-In-One. Nowdays, I have trouble doing pritining on it. So I asked if I can do it in another way like Kahoot!, PowerPoint and etc. The teacher agreed so I made the website. 
 
 # Is this some AI slop* again?
+
+Summary (Since you wont read it):
+It was just an expirement to see how good Google Antigravity can be.
+
 * The HTML was written all by me,
 
 * The CSS was written by Google-Antigravity (The UI was decribed by me) (I mean it was 12:00am when I made this...so I kinda needed help)
